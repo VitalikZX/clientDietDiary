@@ -62,9 +62,3 @@ float Food::getCalorieContent() const {
 Food Food::getPFCCC() const {
     return *this;
 }
-
-
-
-
-
-
