@@ -18,10 +18,10 @@ private:
 public:
     OneDate();
     Food getResult();
-    float getProteins() const;
-    float getFats() const;
-    float getCarbohydrates() const;
-    float getCalorieContent() const;
+    [[nodiscard]] float getProteins() const;
+    [[nodiscard]] float getFats() const;
+    [[nodiscard]] float getCarbohydrates() const;
+    [[nodiscard]] float getCalorieContent() const;
 };
 
 

@@ -5,9 +5,12 @@
 #ifndef DATABASE_H
 #define DATABASE_H
 
-
-
 class DataBase {
+private:
+
+
+public:
+
 
 };
 
